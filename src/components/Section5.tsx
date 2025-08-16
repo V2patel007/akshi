@@ -61,7 +61,7 @@ const Section5: React.FC = () => {
                 Incubated at
               </h2>
               <img 
-                src="https://res.cloudinary.com/dy9hjd10h/image/upload/v1754862629/image_202_hd9ao9.png" 
+                src="https://res.cloudinary.com/dy9hjd10h/image/upload/v1755373083/GUIITAR_LOGO_p7x074.svg" 
                 alt="Incubator Logo" 
                 className="h-20 w-auto mx-auto"
               />
