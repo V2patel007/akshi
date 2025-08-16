@@ -16,9 +16,18 @@ const ConnectSection: React.FC = () => {
             Let's Connect
           </h2>
           
-          <button className="bg-[#4169E1] hover:bg-[#3557c7] text-white px-8 py-3 rounded-md text-lg font-medium transition-all duration-300 hover:scale-105">
-            Try for free
-          </button>
+        <button
+  className="bg-[#4169E1] hover:bg-[#3557c7] text-white px-8 py-3 rounded-md text-lg font-medium transition-all duration-300 hover:scale-105"
+  onClick={() => {
+    window.open(
+      "https://wa.me/918849031687?text=Hello%20Viraj%2C%20Wanted%20to%20connect%20regarding%20Akshi%20when%20is%20it%20possible%20to%20connect%20%3F",
+      "_blank"
+    );
+  }}
+>
+  Connect Now
+</button>
+
           
           <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto pt-12">
             <motion.div
@@ -48,7 +57,7 @@ const ConnectSection: React.FC = () => {
               <p className="text-lg text-gray-300">Incubated at</p>
               <div className="flex justify-center">
                 <img 
-                  src="https://res.cloudinary.com/dy9hjd10h/image/upload/v1754862629/image_202_hd9ao9.png" 
+                  src="https://res.cloudinary.com/dy9hjd10h/image/upload/v1755373083/GUIITAR_LOGO_p7x074.svg" 
                   alt="Incubator Logo" 
                   className="h-12 w-auto"
                 />

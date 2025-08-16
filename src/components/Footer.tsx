@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -19,9 +20,12 @@ const Footer: React.FC = () => {
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white">
               Ready to revolutionize how you see?
             </h2>
-            <button className="bg-[#4169E1] hover:bg-[#3557c7] text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md text-base sm:text-lg font-medium transition-all duration-300 hover:scale-105 whitespace-nowrap">
-              Try for free
-            </button>
+               <Link
+                          to="/visual-assistant" // This links to your new page
+                          className="bg-[#4169E1] hover:bg-[#3557c7] text-white px-8 py-3 rounded-md text-lg font-medium transition-all duration-300 hover:scale-105 inline-block"
+                        >
+                          Try Now
+                        </Link>
           </div>
         </motion.div>
       </div>
